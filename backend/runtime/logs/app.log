@@ -6832,3 +6832,55 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1624520263.0344
     'REQUEST_TIME' => 1624520263
 ]
+2021-07-15 06:30:22 [::1][1][86g2eoc3j9928g3r3rr550enc6][error][yii\base\ErrorException:1] yii\base\ErrorException: Maximum execution time of 30 seconds exceeded in C:\Users\Karatui\Documents\GitHub\dispatch_summary\vendor\yiisoft\yii2\helpers\BaseFileHelper.php:345
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2021-07-15 06:29:52 [::1][1][86g2eoc3j9928g3r3rr550enc6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '998835089297f86e2772f423775c7af5b745b8dc5b2184f95774df21a124b28ea:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_identity-backend' => '6cf67be1e2711ef3ab52c7edc58de54170cfbe29a57c78ba8ba150a983d89833a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"HIMy2Ewfh9Uevm8f3DycqIThd1EGEHC0\",2592000]\";}'
+    '_identity-frontend' => 'abcaa1e5c0d9bc2df928311794e1d21f6518257054d5a8bfea4fa88c1f50434aa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"HIMy2Ewfh9Uevm8f3DycqIThd1EGEHC0\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => 'HIMy2Ewfh9Uevm8f3DycqIThd1EGEHC0'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\Karatui\\Documents\\GitHub\\dispatch_summary\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54551'
+    'SERVER_SOFTWARE' => 'PHP 8.0.6 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\Karatui\\Documents\\GitHub\\dispatch_summary\\backend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity=998835089297f86e2772f423775c7af5b745b8dc5b2184f95774df21a124b28ea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _identity-backend=6cf67be1e2711ef3ab52c7edc58de54170cfbe29a57c78ba8ba150a983d89833a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22HIMy2Ewfh9Uevm8f3DycqIThd1EGEHC0%22%2C2592000%5D%22%3B%7D; _identity-frontend=abcaa1e5c0d9bc2df928311794e1d21f6518257054d5a8bfea4fa88c1f50434aa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22HIMy2Ewfh9Uevm8f3DycqIThd1EGEHC0%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1626330592.3176
+    'REQUEST_TIME' => 1626330592
+]

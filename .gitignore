@@ -1,6 +1,7 @@
 /frontend/runtime/debug/
 /frontend/runtime/logs/
 /frontend/web/assets/
+/backend/runtime/debug/
 .idea/workspace.xml
 /backend/web/assets/
 frontend/runtime/logs/app.log
